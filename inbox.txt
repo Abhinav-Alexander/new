@@ -4,11 +4,11 @@ contract Inbox{
     string public message;
 
     function Inbox(string initialMessage) public {
-        message=initialMessage;
+        message=initialMessage123;
     }
 
     function setMessage(string newMessage) public {
-        message=newMessage;
+        message=newMessage231;
     }
 
 }
