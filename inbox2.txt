@@ -4,11 +4,11 @@ contract Inbox2{
     string public message;
 
     function Inbox(string initialMessage) public {
-        message=initialMessage;
+        message=updatedMessage;
     }
 
     function setMessage(string newMessage) public {
-        message=newMessage;
+        message=oldMessage;
     }
 
 }
